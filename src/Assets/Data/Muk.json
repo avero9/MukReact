@@ -1,0 +1,194 @@
+[
+  {
+    "id": "ex12-11",
+    "localId": "11",
+    "name": "Muk1",
+    "image": "https://assets.tcgdex.net/en/ex/ex12/11/high.webp",
+    "numb": 1,
+    "set":"Legend Maker","series":"EX",       "releaseDate":"2006/02/01","logo":"https://images.pokemontcg.io/ex12/logo.png"
+  },
+  {
+    "id": "base3-13",
+    "localId": "13",
+    "name": "Muk2",
+    "image": "https://assets.tcgdex.net/en/base/base3/13/high.webp",
+    "numb": 2,
+"set":"Fossil","series":"Base", "releaseDate":"1999/10/10","logo":"https://images.pokemontcg.io/base3/logo.png"
+  },
+  {
+    "id": "lc-16",
+    "localId": "16",
+    "name": "Muk3",
+    "image": "https://assets.tcgdex.net/en/lc/lc/16/high.webp",
+    "numb": 3,
+"set":"Fossil","series":"Base", "releaseDate":"1999/10/10","logo":"https://images.pokemontcg.io/base3/logo.png"
+  },
+  {
+    "id": "ecard2-23",
+    "localId": "23",
+    "name": "Muk4",
+    "image": "https://assets.tcgdex.net/en/ecard/ecard2/23/high.webp",
+    "numb": 4,
+"set":"Aquapolis","series":"E-Card", "releaseDate":"2003/01/15","logo":"https://images.pokemontcg.io/ecard2/logo.png"
+  },
+  {
+    "id": "hgss3-31",
+    "localId": "31",
+    "name": "Muk6",
+    "image": "https://assets.tcgdex.net/en/hgss/hgss3/31/high.webp",
+    "numb": 5,
+"set":"HS-Undaunted","series":"HeartGold & SoulSilver", "releaseDate":"2010/08/18","logo":"https://images.pokemontcg.io/hgss3/logo.png"
+  },
+  {
+    "id": "bw9-46",
+    "localId": "46",
+    "name": "Muk7",
+    "image": "https://assets.tcgdex.net/en/bw/bw9/46/high.webp",
+    "numb": 6,
+"set":"Plasma Freeze","series":"Black & White", "releaseDate":"2013/05/08","logo":"https://images.pokemontcg.io/bw9/logo.png"
+  },
+  {
+    "id": "bw4-53",
+    "localId": "53",
+    "name": "Muk8",
+    "image": "https://assets.tcgdex.net/en/bw/bw4/53/high.webp",
+    "numb": 7,
+"set":"Next Destinies","series":"Black & White", "releaseDate":"2012/02/08","logo":"https://images.pokemontcg.io/bw4/logo.png"
+  },
+  {
+    "id": "dp3-56",
+    "localId": "56",
+    "name": "Muk9",
+    "image": "https://assets.tcgdex.net/en/dp/dp3/56/high.webp",
+    "numb": 8,
+"set":"Secret Wonders","series":"Diamond & Pearl", "releaseDate":"2007/11/01","logo":"https://images.pokemontcg.io/dp3/logo.png"
+  },
+  {
+    "id": "pl1-57",
+    "localId": "57",
+    "name": "Muk10",
+    "image": "https://assets.tcgdex.net/en/pl/pl1/57/high.webp",
+    "numb": 9,
+"set":"Platinum","series":"Platinum", "releaseDate":"2009/02/11","logo":"https://images.pokemontcg.io/pl1/logo.png"
+  },
+  {
+    "id": "sm9-63",
+    "localId": "63",
+    "name": "Muk11",
+    "image": "https://assets.tcgdex.net/en/sm/sm9/63/high.webp",
+    "numb": 10 ,
+"set":"Team Up","series":"Sun & Moon", "releaseDate":"2019/02/01","logo":"https://images.pokemontcg.io/sm9/logo.png"
+  },
+  {
+    "id": "swsh9-085",
+    "localId": "085",
+    "name": "Muk12",
+    "image": "https://assets.tcgdex.net/en/swsh/swsh9/085/high.webp",
+    "numb": 11 ,
+"set":"Obsidian Flames","series":"Scarlet & Violet", "releaseDate":"2023/08/11","logo":"https://images.pokemontcg.io/sv3/logo.png"
+  },
+  {
+    "id": "sv03.5-089",
+    "localId": "089",
+    "name": "Muk13",
+    "image": "https://assets.tcgdex.net/en/sv/sv03.5/089/high.webp",
+    "numb": 12,
+"set":"Brilliant Stars","series":"Sword & Shield", "releaseDate":"2022/02/25","logo":"https://images.pokemontcg.io/swsh9/logo.png"
+  },
+  {
+    "id": "swsh3-101",
+    "localId": "101",
+    "name": "Muk14",
+    "image": "https://assets.tcgdex.net/en/swsh/swsh3/101/high.webp",
+    "numb": 13,
+"set":"Darkness Ablaze","series":"Sword & Shield", "releaseDate":"2020/08/14","logo":"https://images.pokemontcg.io/swsh3/logo.png"
+  },
+  {
+    "id": "sv01-127",
+    "localId": "127",
+    "name": "Muk15",
+    "image": "https://assets.tcgdex.net/en/sv/sv01/127/high.webp",
+    "numb": 14,
+"set":"Scarlet & Violet","series":"Scarlet & Violet", "releaseDate":"2023/03/31","logo":"https://images.pokemontcg.io/sv1/logo.png"
+  },
+{
+    "id": "sm1-58",
+    "localId": "58",
+    "name": "Alolan Muk",
+    "image": "https://assets.tcgdex.net/en/sm/sm1/58/high.webp",
+"numb": 15,
+"set":"Sun & Moon","series":"Sun & Moon", "releaseDate":"2017/02/03","logo":"https://images.pokemontcg.io/sm1/logo.png"
+  },
+  {
+    "id": "sm10-61",
+    "localId": "61",
+    "name": "Muk & Alolan Muk GX",
+    "image": "https://assets.tcgdex.net/en/sm/sm10/61/high.webp",
+    "numb": 16,
+"set":"Unbroken Bonds","series":"Sun & Moon", "releaseDate":"2019/05/03","logo":"https://images.pokemontcg.io/sm10/logo.png"
+  },
+  {
+    "id": "sm3-84",
+    "localId": "84",
+    "name": "Alolan Muk GX",
+    "image": "https://assets.tcgdex.net/en/sm/sm3/84/high.webp",
+    "numb" : 17,
+"set":"Burning Shadows","series":"Sun & Moon", "releaseDate":"2017/08/05","logo":"https://images.pokemontcg.io/sm3/logo.png"
+  },
+  {
+    "id": "sm9-84",
+    "localId": "84",
+    "name": "Alolan Muk",
+    "image": "https://assets.tcgdex.net/en/sm/sm9/84/high.webp",
+"numb" : 18,
+"set":"Team Up","series":"Sun & Moon", "releaseDate":"2019/02/01","logo":"https://images.pokemontcg.io/sm9/logo.png"
+  },
+  {
+    "id": "sm12-131",
+    "localId": "131",
+    "name": "Alolan Muk",
+    "image": "https://assets.tcgdex.net/en/sm/sm12/131/high.webp",
+"numb" : 19,
+"set":"Cosmic Eclipse","series":"Sun & Moon", "releaseDate":"2019/11/01","logo":"https://images.pokemontcg.io/sm12/logo.png"
+  },
+  {
+    "id": "sm3-138",
+    "localId": "138",
+    "name": "Alolan Muk GX",
+    "image": "https://assets.tcgdex.net/en/sm/sm3/138/high.webp",
+"numb" : 20,
+"set":"Unbroken Bonds","series":"Sun & Moon", "releaseDate":"2019/05/03","logo":"https://images.pokemontcg.io/sm10/logo.png"
+  },
+  {
+    "id": "sm3-157",
+    "localId": "157",
+    "name": "Alolan Muk GX",
+    "image": "https://assets.tcgdex.net/en/sm/sm3/157/high.webp",
+"numb" : 21,
+"set":"Burning Shadows","series":"Sun & Moon", "releaseDate":"2017/08/05","logo":"https://images.pokemontcg.io/sm3/logo.png"
+  },
+  {
+    "id": "sm10-196",
+    "localId": "196",
+    "name": "Muk & Alolan Muk GX",
+    "image": "https://assets.tcgdex.net/en/sm/sm10/196/high.webp",
+"numb" : 22,
+"set":"Unbroken Bonds","series":"Sun & Moon", "releaseDate":"2019/05/03","logo":"https://images.pokemontcg.io/sm10/logo.png"
+  },
+  {
+    "id": "sm10-197",
+    "localId": "197",
+    "name": "Muk & Alolan Muk GX",
+    "image": "https://assets.tcgdex.net/en/sm/sm10/197/high.webp",
+"numb" : 23,
+"set":"Unbroken Bonds","series":"Sun & Moon", "releaseDate":"2019/05/03","logo":"https://images.pokemontcg.io/sm10/logo.png"
+  },
+  {
+    "id": "sm10-220",
+    "localId": "220",
+    "name": "Muk & Alolan Muk GX",
+    "image": "https://assets.tcgdex.net/en/sm/sm10/220/high.webp",
+"numb" : 24,
+"set":"Unbroken Bonds","series":"Sun & Moon", "releaseDate":"2019/05/03","logo":"https://images.pokemontcg.io/sm10/logo.png"
+  }
+]

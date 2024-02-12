@@ -1,0 +1,13 @@
+.Header{
+    background-color: #D9C741;
+    padding: 10px;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.headerlink{
+    margin: 1rem 1rem;
+    padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}

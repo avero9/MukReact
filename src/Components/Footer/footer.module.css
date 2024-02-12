@@ -1,0 +1,38 @@
+.footerApp{
+    background-color: #D9C741;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.logoa{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 5px;
+}
+
+.ulApp{
+    list-style: none;
+    text-align: center;
+     margin: auto;
+}
+
+.footerCopyright {
+    font-size: 0.7rem;
+    margin: auto;
+}
+
+.unimib{
+    max-width: 25px;
+    max-height: 25px;
+    padding-left: 5px;
+}
+
+a {
+    font-family: "Kanit", SansSerif, serif;
+    color: #0D0D0D;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+
+}
+

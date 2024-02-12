@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  background-image: url("Assets/Images/bg_muk.jpg");
+  /*background-color: #8051AE;*/
+}
+
+
+h1, h2, h3, h4, h5{
+  font-family: "Josefin Sans", SansSerif, serif;
+  color: #0D0D0D;
+}
+
+p{
+  font-family: "Kanit", SansSerif, serif;
+  color: #0D0D0D;
+}
+
+
+
+a:hover {
+  color: #8D41D9;
+}
+
+a.active {
+  color: #8D41D9;
+  font-weight: bold;
+}
+
+.option {
+  font-family: "Kanit", SansSerif;
+  background-color: #B5A4BF;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid #594D59;
+  color: #0D0D0D;
+}
+.option:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.option:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.option.active-switch {
+  background-color: #D5CCD9;
+  color: #0D0D0D;
+}
+.option-order-table {
+  padding: 5px 10px;
+}

@@ -1,0 +1,13 @@
+
+.bottone {
+    font-family: "Kanit", SansSerif;
+    border: 2px solid #0D0D0D;
+    background-color: #B5A4BF;
+    color: #151515;
+    border-radius: 10% / 50%;;
+    padding: 5px;
+}
+.bottone:hover {
+    background-color: #D5CCD9;
+    color: #0D0D0D;
+}

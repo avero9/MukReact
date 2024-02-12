@@ -1,0 +1,13 @@
+.appCard {
+    background-color: #C785F2;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border: 2px solid #D9C741;
+}
+
+.setimg{
+    max-width: 25px;
+    max-height: 25px;
+    margin-left: 3px;
+}
+
