@@ -7,7 +7,7 @@ import Info from "../Info/Info";
 import Error from "../404/404";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import MukDetails from "../Detail/MukDetails";
-
+import  "../../index.css"
 
 function App() {
     const nav = [

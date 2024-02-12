@@ -54,21 +54,26 @@ function MukDetails () {
         </Container>
         <Container className="mt-4">
             <Row className="py-3">
-                <Col xs={12} md={6}>
-                    <img className="img-fluid" src={currentMuk.image} alt={currentMuk.name} loading="lazy"
+                <Col xs={12} md={6} >
+                    <img className={styleD.imgDetail} src={currentMuk.image} alt={currentMuk.name} loading="lazy"
                          onError={(event) => mukDefaultImg(event)}/>
                 </Col>
-
+                <Col>
+                    <Row className={styleD.mukInfoFrame}>
                 {mukCardInfo.illustrator &&
-                    <Col>
+
+                        <Col>
                         <p><b>Illustrator :</b> {mukCardInfo.illustrator}</p>
-                    </Col>
+                        </Col>
+
                 }
                 {mukCardInfo.types &&
-                    <Col>
+
+                        <Col>
                         <p><b>Type :</b> {mukCardInfo.types}</p>
-                    </Col>
+                        </Col>
                 }
+
                 {/*{mukCardInfo.weaknesses &&
                     <Col>
                         {mukCardInfo.weaknesses.map((weaknessesInfo) => {
@@ -78,17 +83,25 @@ function MukDetails () {
                     </Col>
                 }*/}
                 {mukCardInfo.rarity &&
-                    <Col>
+
+                        <Col>
                         <p><b>Rarity :</b> {mukCardInfo.rarity}</p>
+                        </Col>
+
+                }
+                    </Row>
+                </Col>
+                {mukCardInfo.name &&
+                    <Col md={6}>
+                        <Row className={styleD.mukInfoFrame}>
+                        {mukCardInfo.description ? <p> <b>Description :</b> {mukCardInfo.description}</p> : <p> <b>Description :</b> None</p> }
+                        </Row>
                     </Col>
                 }
             </Row>
+
             <Row>
-                {mukCardInfo.name &&
-                    <Col>
-                        {mukCardInfo.description ? <p> <b>Description :</b> {mukCardInfo.description}</p> : <p> <b>Description :</b> None</p> } {/*mettere alternativa*/}
-                    </Col>
-                }
+
                 {/*{mukCardInfo.attacks &&
                     <Col>
                         Attacks:

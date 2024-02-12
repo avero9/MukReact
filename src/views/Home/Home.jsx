@@ -4,9 +4,11 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {NavLink} from "react-router-dom";
+import  "../../index.css"
 import style from "./Home.module.css"
 import muk1 from "../../Assets/Images/muk_poison_jab.jpg"
 import muk2 from "../../Assets/Images/alolan.png"
+
 function Home(){
     return(
         <>

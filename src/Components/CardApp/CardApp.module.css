@@ -1,8 +1,12 @@
-.appCard {
+.mukCard {
     background-color: #C785F2;
     margin-bottom: 2rem;
     margin-top: 1rem;
     border: 2px solid #D9C741;
+}
+
+.mukCard:hover {
+    transform: scale(1.05);
 }
 
 .setimg{
@@ -10,4 +14,6 @@
     max-height: 25px;
     margin-left: 3px;
 }
+
+
 

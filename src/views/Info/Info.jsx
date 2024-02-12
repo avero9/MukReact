@@ -49,28 +49,27 @@ const Kanto = (
     <Row>
         <Col className="col-6">
             <img  className={stylei.img1} src={Muk} alt="Muk"/>
-            <div>
                 <button
                     type="button"
+                    className={stylei.bottone}
                     onClick={() => setMukVersion(false)}>
-                    Alolan version
+                    Switch to Alolan version
                 </button>
-            </div>
         </Col>
-        <Col className="col-6">
-            <Row>
+        <Col md={6}>
+            <Row className={stylei.mukInfoFrame}>
                 {mukInfo.height &&
-                    <Col>{/* fare row col */}
+                    <Col >
                         <p>Height: {mukInfo.height} m</p> {/*rendering condizionale alolan}*/}
                     </Col>
                 }
                 {mukInfo.weight &&
-                    <Col >
+                    <Col>
                         <p>Weight: {mukInfo.weight} kg</p>
                     </Col>
                 }
             </Row>
-            <Row>
+            <Row className={stylei.mukInfoFrame}>
                 {mukInfo.abilities &&
                     <Col >
                         Abilities:
@@ -84,7 +83,6 @@ const Kanto = (
                 }
                 {mukInfo.stats &&
                     <Col >
-                        Base Stats:
                         <ul>
                             {mukInfo.stats.map((statsInfo) => {
                                     return <li key={statsInfo.stat.name}>{statsInfo.stat.name}: {statsInfo.base_stat}</li>
@@ -102,16 +100,15 @@ const Kanto = (
         <Row>
             <Col className="col-6">
                 <img  className={stylei.img1} src={alolanMuk} alt="Alolan-Muk"/>
-                <div >
                     <button
                         type="button"
+                        className={stylei.bottone}
                         onClick={() => setMukVersion(true)}>
-                        Kantonian version
+                        Switch to Kantonian version
                     </button>
-                </div>
             </Col>
-            <Col className="col-6">
-                <Row>
+            <Col md={6} >
+                <Row className={stylei.mukInfoFrame}>
                     {aMukInfo.height &&
                         <Col>{/* fare row col */}
                             <p>Height: {aMukInfo.height} m</p>
@@ -123,9 +120,9 @@ const Kanto = (
                         </Col>
                     }
                 </Row>
-                <Row>
+                <Row className={stylei.mukInfoFrame}>
                     {aMukInfo.abilities &&
-                        <Col >
+                        <Col>
                             Abilities:
                             <ul>
                                 {aMukInfo.abilities.map((abilityInfo) => {
@@ -137,7 +134,6 @@ const Kanto = (
                     }
                     {mukInfo.stats &&
                         <Col >
-                            Base Stats:
                             <ul>
                                 {aMukInfo.stats.map((statsInfo) => {
                                         return <li key={statsInfo.stat.name}>{statsInfo.stat.name}: {statsInfo.base_stat}</li>
@@ -157,7 +153,7 @@ const Kanto = (
                 {mukVersion ? Kanto : Alola}
                 <Row className="mt-4">
                     <h2>So who is Muk?</h2>
-                    <p>Muk (Japanese: ベトベトン Betbeton) is a Poison-type Pokémon introduced in Generation I.
+                    <p>Muk (Japanese: ベトベトン Betobeton) is a Poison-type Pokémon introduced in Generation I.
 
                         It evolves from Grimer starting at level 38.
 

@@ -14,7 +14,7 @@ function CardApp(props){
 
     return(
 
-            <Card className={styleCa.appCard}>
+            <Card className={styleCa.mukCard}>
                 <Row className="no-gutters">
                     <Col md={6}>
                         <NavLink to={`/Appearances/${numb}`}>
