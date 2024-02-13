@@ -5,19 +5,31 @@
 }
 
 .mukInfoFrame {
-    background-color: #B5A4BF;
+    background-color: rgba(181, 164, 191, 0.5);
     border-radius: 10px;
     padding: 10px 20px;
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
     text-transform: capitalize;
+    border: solid 1px #504759;
 }
+
+.mukImgFrame {
+    background-color: rgba(181, 164, 191, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    border: solid 1px #504759;
+}
+
 
 .bottone {
     font-family: "Kanit", SansSerif;
-    border: 2px solid #0D0D0D;
-    background-color: #B5A4BF;
+    border: 2px solid #504759;
+    background-color: #C296C8;
     color: #151515;
     border-radius: 10px;
     padding: 5px;

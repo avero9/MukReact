@@ -1,1 +1,4 @@
-/*.templateApp{background-color: #8D41D9;}*/
+.templateApp{
+background-image: url("../../Assets/Images/bg_muk.jpg");
+min-height: 100vh;
+}

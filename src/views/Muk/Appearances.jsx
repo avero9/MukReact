@@ -35,7 +35,7 @@ function Appearances(){
 
     return(
         <Container>
-            <h1>Take a look at all of Muk appearances in the TGC throughout the years!</h1>
+            <h1>Let's take a look at all of Muk appearances in the TGC throughout the years!</h1>
             <Row>
                 <div className="d-flex align-content-center my-3">
                     <button className={clsx("option", { ["active-switch"]: displayGrid } ) } onClick={() => setDisplayGrid(true)}> {/*impostare stile usando clsx(style.option, {style.active}*/}

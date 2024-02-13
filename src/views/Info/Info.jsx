@@ -7,6 +7,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Muk from "../../Assets/Images/Muk.jpg";
 import alolanMuk from "../../Assets/Images/Alolan-Muk.webp";
+import { removeDashesAndUnderscores} from "../../Utility/Utility";
 import {NavLink} from "react-router-dom";
 import stylei from "./Info.module.css"
 
@@ -47,7 +48,7 @@ function Info(){
     {/*mettere shiny, trasformarli in componenti*/}
 const Kanto = (
     <Row>
-        <Col className="col-6">
+        <Col md={6}>
             <img  className={stylei.img1} src={Muk} alt="Muk"/>
                 <button
                     type="button"
@@ -72,10 +73,10 @@ const Kanto = (
             <Row className={stylei.mukInfoFrame}>
                 {mukInfo.abilities &&
                     <Col >
-                        Abilities:
+                        <p className="text-center">Abilities</p>
                         <ul>
                             {mukInfo.abilities.map((abilityInfo) => {
-                                    return <li key={abilityInfo.ability.name}>{abilityInfo.ability.name}</li>
+                                    return <li key={abilityInfo.ability.name}>{removeDashesAndUnderscores(abilityInfo.ability.name)}</li>
                                 }
                             )}
                         </ul>
@@ -83,9 +84,10 @@ const Kanto = (
                 }
                 {mukInfo.stats &&
                     <Col >
+                        <p className="text-center">Stats</p>
                         <ul>
                             {mukInfo.stats.map((statsInfo) => {
-                                    return <li key={statsInfo.stat.name}>{statsInfo.stat.name}: {statsInfo.base_stat}</li>
+                                    return <li key={statsInfo.stat.name}>{removeDashesAndUnderscores(statsInfo.stat.name)}: {statsInfo.base_stat}</li>
                                 }
                             )}
                         </ul>
@@ -123,10 +125,10 @@ const Kanto = (
                 <Row className={stylei.mukInfoFrame}>
                     {aMukInfo.abilities &&
                         <Col>
-                            Abilities:
+                            <p className="text-center">Abilities</p>
                             <ul>
                                 {aMukInfo.abilities.map((abilityInfo) => {
-                                        return <li key={abilityInfo.ability.name}>{abilityInfo.ability.name}</li>
+                                        return <li key={abilityInfo.ability.name}>{removeDashesAndUnderscores(abilityInfo.ability.name)}</li>
                                     }
                                 )}
                             </ul>
@@ -134,9 +136,10 @@ const Kanto = (
                     }
                     {mukInfo.stats &&
                         <Col >
+                            <p className="text-center">Stats</p>
                             <ul>
                                 {aMukInfo.stats.map((statsInfo) => {
-                                        return <li key={statsInfo.stat.name}>{statsInfo.stat.name}: {statsInfo.base_stat}</li>
+                                        return <li key={statsInfo.stat.name}>{removeDashesAndUnderscores(statsInfo.stat.name)}: {statsInfo.base_stat}</li>
                                     }
                                 )}
                             </ul>

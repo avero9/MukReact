@@ -43,10 +43,10 @@ function MukDetails () {
         <Container>
             <div className="d-flex justify-content-evenly">
                 {mukId - 1 !== 0 &&
-                    <NavLink className={styleD.bottone} to={`/Appearances/${mukId - 1}`}>⮜</NavLink>
+                    <NavLink className={styleD.bottone} to={`/Appearances/${mukId - 1}`}>⮜ Previous</NavLink>
                 }
                 {mukId + 1 <= Object.keys(mukData).length &&
-                    <NavLink className={styleD.bottone} to={`/Appearances/${mukId + 1}`}>⮞</NavLink>
+                    <NavLink className={styleD.bottone} to={`/Appearances/${mukId + 1}`}>Next ⮞</NavLink>
                 }
             </div>
 
@@ -91,17 +91,17 @@ function MukDetails () {
                 }
                     </Row>
                 </Col>
-                {mukCardInfo.name &&
-                    <Col md={6}>
-                        <Row className={styleD.mukInfoFrame}>
-                        {mukCardInfo.description ? <p> <b>Description :</b> {mukCardInfo.description}</p> : <p> <b>Description :</b> None</p> }
-                        </Row>
-                    </Col>
-                }
+
             </Row>
 
             <Row>
-
+                {mukCardInfo.name &&
+                    <Col md={6}>
+                        <Row className={styleD.mukInfoFrame}>
+                            {mukCardInfo.description ? <p> <b>Description :</b> {mukCardInfo.description}</p> : <p> <b>Description :</b> None</p> }
+                        </Row>
+                    </Col>
+                }
                 {/*{mukCardInfo.attacks &&
                     <Col>
                         Attacks:

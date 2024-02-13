@@ -8,21 +8,22 @@
 
 }
 .bottone:hover {
-    background-color: #D5CCD9;
+    background-color: #B5A4BF;
     color: #0D0D0D;
 }
 
 .mukInfoFrame {
-    background-color: #B5A4BF;
+    background-color: rgba(181, 164, 191, 0.5);
     border-radius: 10px;
     padding: 10px 20px;
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
+    border: solid 1px #504759;
 }
 
 .imgDetail {
-    width: 80%;
+    width: 70%;
     height: auto;
     margin-bottom: 2rem;
 }

@@ -20,3 +20,7 @@ tr {
     max-height: 20vh;
     width: auto;
 }
+
+.imgTable:hover{
+    transform: scale(1.05)
+}

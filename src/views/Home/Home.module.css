@@ -1,13 +1,28 @@
-
+.mukFrame {
+    background-color: rgba(181, 164, 191, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    border: solid 1px #504759;
+}
 .bottone {
     font-family: "Kanit", SansSerif;
-    border: 2px solid #0D0D0D;
-    background-color: #B5A4BF;
-    color: #151515;
+    border: 2px solid #504759;
+    background-color: #C785F2;
+    color: #0D0D0D;
     border-radius: 10px;
     padding: 5px;
 }
 .bottone:hover {
     background-color: #D5CCD9;
     color: #0D0D0D;
+}
+
+.mukImg{
+    width: 100%;
+    max-width: 100%;
+    min-height: 400px;
+    border-radius: 20px;
 }
