@@ -13,6 +13,7 @@
     align-items: center;
     text-transform: capitalize;
     border: solid 1px #504759;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .mukImgFrame {
@@ -29,7 +30,7 @@
 .bottone {
     font-family: "Kanit", SansSerif;
     border: 2px solid #504759;
-    background-color: #C296C8;
+    background-color: #C785F2;
     color: #151515;
     border-radius: 10px;
     padding: 5px;
@@ -42,4 +43,8 @@
 
 ul{
     list-style: none;
+}
+
+.ulTitle{
+
 }

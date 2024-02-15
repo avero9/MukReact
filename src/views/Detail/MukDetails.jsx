@@ -40,8 +40,8 @@ function MukDetails () {
             </NavLink>
         </Container>
             <h1 className="text-center my-4">Card details</h1>
-        <Container>
-            <div className="d-flex justify-content-evenly">
+        <Container >
+            <div className="d-flex justify-content-evenly mb-4">
                 {mukId - 1 !== 0 &&
                     <NavLink className={styleD.bottone} to={`/Appearances/${mukId - 1}`}>⮜ Previous</NavLink>
                 }
@@ -60,35 +60,32 @@ function MukDetails () {
                 </Col>
                 <Col>
                     <Row className={styleD.mukInfoFrame}>
-                {mukCardInfo.illustrator &&
-
-                        <Col>
-                        <p><b>Illustrator :</b> {mukCardInfo.illustrator}</p>
-                        </Col>
-
-                }
                 {mukCardInfo.types &&
-
-                        <Col>
-                        <p><b>Type :</b> {mukCardInfo.types}</p>
-                        </Col>
+                    <Col md={6}>
+                        <p><strong>Type :</strong> {mukCardInfo.types}</p>
+                    </Col>
                 }
 
-                {/*{mukCardInfo.weaknesses &&
-                    <Col>
+                {mukCardInfo.weaknesses &&
+                    <Col md={6}>
                         {mukCardInfo.weaknesses.map((weaknessesInfo) => {
-                                    return <p><b>Weakness :</b> {weaknessesInfo.weaknesses.type}</p>
+                                    return <p><strong>Weakness :</strong> {weaknessesInfo.weaknesses?.type}</p>
                                 }
                             )}
                     </Col>
-                }*/}
+                }
                 {mukCardInfo.rarity &&
-
-                        <Col>
-                        <p><b>Rarity :</b> {mukCardInfo.rarity}</p>
-                        </Col>
+                    <Col md={6}>
+                        <p><strong>Rarity :</strong> {mukCardInfo.rarity}</p>
+                    </Col>
 
                 }
+                {mukCardInfo.illustrator &&
+                    <Col md={6}>
+                        <p><strong>Illustrator :</strong> {mukCardInfo.illustrator}</p>
+                    </Col>
+
+                        }
                     </Row>
                 </Col>
 
@@ -98,19 +95,21 @@ function MukDetails () {
                 {mukCardInfo.name &&
                     <Col md={6}>
                         <Row className={styleD.mukInfoFrame}>
-                            {mukCardInfo.description ? <p> <b>Description :</b> {mukCardInfo.description}</p> : <p> <b>Description :</b> None</p> }
+                            {mukCardInfo.description ? <p> <strong>Description :</strong> {mukCardInfo.description}</p> : <p> <strong>Description :</strong> None</p> }
                         </Row>
                     </Col>
                 }
                 {/*{mukCardInfo.attacks &&
-                    <Col>
+                    <Col className="">
+                        <Row className={styleD.mukInfoFrame}>
                         Attacks:
                         <ul>
                             {mukCardInfo.attacks.map((attacksInfo) => {
-                                    return <li key={attacksInfo.attacks.name}>{attacksInfo.attacks.name} : {attacksInfo.attacks.effect}</li>
+                                    return <li key={attacksInfo.attacks?.name}>{attacksInfo.attacks?.name} : {attacksInfo.attacks?.effect}</li>
                                 }
                             )}
                         </ul>
+                        </Row>
                     </Col>
                 }*/}
             </Row>

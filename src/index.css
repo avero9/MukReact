@@ -6,12 +6,6 @@ body {
   /*background-color: #8051AE;*/
 }
 
-
-h1, h2, h3, h4, h5{
-  font-family: "Josefin Sans", SansSerif, serif;
-  color: #D9C741;
-}
-
 p{
   font-family: "Kanit", SansSerif, serif;
   color: #0D0D0D;
@@ -51,4 +45,9 @@ a.active {
 }
 .option-order-table {
   padding: 5px 10px;
+}
+
+strong{
+  font-size: 20px;
+  font-family: "Kanit", SansSerif;
 }

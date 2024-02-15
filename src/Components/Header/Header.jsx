@@ -26,7 +26,7 @@ function Header(props){
 
                 <Navbar.Brand>
                     <NavLink to="/">
-                        <img src={logo} className="d-inline-block align-top app-logo" alt="Arancia"/>
+                        <img src={logo} className="d-inline-block align-top app-logo" alt="mukLogo"/>
                     </NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

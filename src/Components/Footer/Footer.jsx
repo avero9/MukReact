@@ -23,7 +23,7 @@ function Footer(props){
     return(
         <footer className={stylef.footerApp}>
             <Container>
-                <Row className=" text-center">
+                <Row>
                     <Col className="pt-3">
                         <h3>MukReact<span>
                             <NavLink to="/">
@@ -36,8 +36,8 @@ function Footer(props){
                 </Row>
                 <Row className={stylef.footerCopyright}>
                     <Col>
-                        <p className="mb-0">Sito sviluppato da Andrea Veronese</p>
-                        <p className="mt-0">Corso di <a href={courseLink}>{courseName}</a> 2023/2024, Università degli Studi Milano-Bicocca<span><a href="https://www.unimib.it/"><img src={Unimib} alt="Unimib" className={stylef.unimib}/></a></span></p>
+                        <p className="mb-0">Developed by Andrea Veronese</p>
+                        <p className="mt-0">Course of "<a href={courseLink}>{courseName}</a>" 2023/2024, University of Milano-Bicocca<span><a href="https://www.unimib.it/"><img src={Unimib} alt="Unimib" className={stylef.unimib}/></a></span></p>
                     </Col>
                 </Row>
             </Container>

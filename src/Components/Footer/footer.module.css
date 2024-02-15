@@ -2,6 +2,8 @@
     background-color: #D9C741;
     margin-top: 2rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .logoa{
@@ -13,7 +15,7 @@
 .ulApp{
     list-style: none;
     text-align: center;
-     margin: auto;
+    margin: auto;
     text-transform: uppercase;
 }
 
@@ -36,4 +38,5 @@ a {
     font-weight: 500;
 
 }
+
 

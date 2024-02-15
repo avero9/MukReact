@@ -45,7 +45,7 @@ function Info(){
             isMounted = false;
         }
     }, []);
-    {/*mettere shiny, trasformarli in componenti*/}
+    {/*mettere shiny, trasformarli in componenti?*/}
 const Kanto = (
     <Row>
         <Col md={6}>
@@ -61,19 +61,19 @@ const Kanto = (
             <Row className={stylei.mukInfoFrame}>
                 {mukInfo.height &&
                     <Col >
-                        <p>Height: {mukInfo.height} m</p> {/*rendering condizionale alolan}*/}
+                        <p><strong>Height:</strong> {mukInfo.height} m</p> {/*rendering condizionale alolan}*/}
                     </Col>
                 }
                 {mukInfo.weight &&
                     <Col>
-                        <p>Weight: {mukInfo.weight} kg</p>
+                        <p><strong>Weight:</strong> {mukInfo.weight} kg</p>
                     </Col>
                 }
             </Row>
             <Row className={stylei.mukInfoFrame}>
                 {mukInfo.abilities &&
-                    <Col >
-                        <p className="text-center">Abilities</p>
+                    <Col>
+                        <strong className={stylei.ulTitle}>Abilities</strong>
                         <ul>
                             {mukInfo.abilities.map((abilityInfo) => {
                                     return <li key={abilityInfo.ability.name}>{removeDashesAndUnderscores(abilityInfo.ability.name)}</li>
@@ -83,8 +83,8 @@ const Kanto = (
                     </Col>
                 }
                 {mukInfo.stats &&
-                    <Col >
-                        <p className="text-center">Stats</p>
+                    <Col>
+                        <strong className={stylei.ulTitle}>Stats</strong>
                         <ul>
                             {mukInfo.stats.map((statsInfo) => {
                                     return <li key={statsInfo.stat.name}>{removeDashesAndUnderscores(statsInfo.stat.name)}: {statsInfo.base_stat}</li>
@@ -113,19 +113,19 @@ const Kanto = (
                 <Row className={stylei.mukInfoFrame}>
                     {aMukInfo.height &&
                         <Col>{/* fare row col */}
-                            <p>Height: {aMukInfo.height} m</p>
+                            <strong>Height:</strong> {aMukInfo.height} m
                         </Col>
                     }
                     {aMukInfo.weight &&
                         <Col >
-                            <p>Weight: {aMukInfo.weight} kg</p>
+                            <strong>Weight:</strong> {aMukInfo.weight} kg
                         </Col>
                     }
                 </Row>
                 <Row className={stylei.mukInfoFrame}>
                     {aMukInfo.abilities &&
                         <Col>
-                            <p className="text-center">Abilities</p>
+                            <strong className={stylei.ulTitle}>Abilities</strong>
                             <ul>
                                 {aMukInfo.abilities.map((abilityInfo) => {
                                         return <li key={abilityInfo.ability.name}>{removeDashesAndUnderscores(abilityInfo.ability.name)}</li>
@@ -136,7 +136,7 @@ const Kanto = (
                     }
                     {mukInfo.stats &&
                         <Col >
-                            <p className="text-center">Stats</p>
+                            <strong className={stylei.ulTitle}>Stats</strong>
                             <ul>
                                 {aMukInfo.stats.map((statsInfo) => {
                                         return <li key={statsInfo.stat.name}>{removeDashesAndUnderscores(statsInfo.stat.name)}: {statsInfo.base_stat}</li>
