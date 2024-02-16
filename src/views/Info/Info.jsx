@@ -7,6 +7,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Muk from "../../Assets/Images/Muk.jpg";
 import alolanMuk from "../../Assets/Images/Alolan-Muk.webp";
+import shinyMuk from "../../Assets/Images/Muk_shiny.webp"
+import shinyAlola from "../../Assets/Images/Alola_shiny.png"
 import { removeDashesAndUnderscores} from "../../Utility/Utility";
 import stylei from "./Info.module.css"
 
@@ -14,6 +16,7 @@ function Info(){
     const [mukInfo, setMukInfo]= useState([]);
     const [aMukInfo, setAMukInfo]= useState([]);
     const [mukVersion, setMukVersion] = useState(false);
+    const [toggleShiny, setToggleShiny] = useState(true);
 
     useEffect(() => {
         let isMounted = true;
@@ -44,11 +47,11 @@ function Info(){
             isMounted = false;
         }
     }, []);
-    {/*mettere shiny, trasformarli in componenti?*/}
+
 const Kanto = (
     <Row>
         <Col md={6}>
-            <img  className={stylei.img1} src={Muk} alt="Muk"/>
+            {toggleShiny? <img onClick={() => setToggleShiny(false)} className={stylei.img1} src={Muk} alt="Muk"/> : <img onClick={() => setToggleShiny(true)} className={stylei.img1} src={shinyMuk} alt="shinyMuk"/> }
                 <button
                     type="button"
                     className={stylei.bottone}
@@ -100,7 +103,7 @@ const Kanto = (
     const Alola = (
         <Row>
             <Col className="col-6">
-                <img  className={stylei.img1} src={alolanMuk} alt="Alolan-Muk"/>
+                {toggleShiny?<img onClick={() => setToggleShiny(false)} className={stylei.img1} src={alolanMuk} alt="Alolan-Muk"/> : <img onClick={() => setToggleShiny(true)} className={stylei.img1} src={shinyAlola} alt="shinyAlola"/> }
                     <button
                         type="button"
                         className={stylei.bottone}
@@ -111,7 +114,7 @@ const Kanto = (
             <Col md={6} >
                 <Row className={stylei.mukInfoFrame}>
                     {aMukInfo.height &&
-                        <Col>{/* fare row col */}
+                        <Col>
                             <strong>Height:</strong> {aMukInfo.height} m
                         </Col>
                     }

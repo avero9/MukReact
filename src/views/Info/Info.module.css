@@ -2,6 +2,8 @@
     width: 100%;
     max-width: 100%;
     height: auto;
+    cursor: pointer;
+
 }
 
 .mukInfoFrame {
@@ -26,6 +28,11 @@
     border: solid 1px #504759;
 }
 
+.mukImgFrame:hover{
+    box-shadow: 0 0 100px greenyellow;
+    color: #111;
+    background: greenyellow;
+}
 
 .bottone {
     font-family: "Rubik", serif;

@@ -38,4 +38,9 @@ a {
 
 }
 
+.footerCopyright>a{
+    font-family: 'Poppins', serif;
+    font-weight: normal;
+}
+
 
