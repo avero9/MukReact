@@ -14,13 +14,15 @@
 }
 
 .bottone {
-    font-family: "Kanit", SansSerif;
+    font-family: 'Rubik', serif;
+    font-weight: 450;
     border: 2px solid #504759;
     background-color: #C785F2;
     color: #0D0D0D;
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 20px;
+
 }
 .bottone:hover {
     background-color: #D5CCD9;

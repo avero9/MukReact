@@ -24,8 +24,8 @@ function CardApp(props){
                     </Col>
                     <Col md={6} >
                         <CardText><b>Series:</b> <span>{series}</span></CardText>
-                        <CardText><b>Set:</b> {set}</CardText>
-                        <CardText><b>Release date:</b><span>{date}</span></CardText>
+                        <CardText><b>Set: </b> {set}</CardText>
+                        <CardText><b>Release date: </b><span>{date}</span></CardText>
                     </Col>
                 </Row>
             </Card>

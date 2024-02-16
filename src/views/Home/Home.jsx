@@ -20,8 +20,8 @@ function Home(){
                 <Row className={style.mukFrame}>
                     <Col md={6} >
                         <h2>Enjoy Muk</h2>
-                        <p>Being one of the first 151 Pokemon, Muk has had its fair number of apparitions in all things Pokemon related: the official games, the anime, the trading card game (TGC), plushies and so on.
-                        On this site I decided to focus on its appearances in the TCG, by showing the world the many ways Muk has been interpreted by various artist throughout the years.</p>
+                        <p>Being one of the first 151 Pokemon, Muk has had its fair number of apparitions in all things Pokemon related: the official games, the anime, the trading card game (TGC), plushies, and so on.
+                        <br/>On this site I decided to focus on its appearances in the TCG, by showing the world the many ways Muk has been interpreted by various artist throughout the years.</p>
                         <NavLink to={"/Appearances"}>
                         <button type="button" className={style.bottone} >Click to see!</button>
                         </NavLink>

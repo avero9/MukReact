@@ -13,7 +13,6 @@ function Appearances(){
     const [displayGrid, setDisplayGrid] = useState("true")
     const [filteredList, setFilteredList] = useState(mukData);
     const [selectedSeries, setSelectedSeries] = useState("");
-    const [dateSort, setDateSort] = useState("")
     function handleSeriesChange(event) {
         setSelectedSeries(event.target.value);
     }
@@ -36,25 +35,6 @@ function Appearances(){
 
     //
 
-    function handleDate(event) {
-        setDateSort(event.target.value);
-    }
-
-    function sortByDate(filteredData) {
-        if (!selectedSeries) {
-            return filteredData;
-        }
-        const sortedMukCards = sortedData.filter(
-            (mukCard) => mukCard.series === selectedSeries
-        );
-        return sortedMukCards;
-    }
-
-    useEffect(() => {
-            let sortedData = sortByDate(Object.keys(mukData));
-            setDateSort(sortedData);
-        },
-        [dateSort]);
 
     return(
         <Container>
@@ -96,8 +76,7 @@ function Appearances(){
                         <Col>
                             <div>
                                 <select className={styleAp.seriesSelect}
-                                        value={dateSort}
-                                        onChange={handleDate}>
+                                >
                                     <option value="default">Default</option>
                                     <option value="oldest">Oldest</option>
                                     <option value="newest">Newest</option>
