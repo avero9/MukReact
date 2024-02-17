@@ -38,7 +38,7 @@ function Appearances(){
 
     return(
         <Container>
-            <h1 className="text-center">Let's take a look at all of Muk appearances in the TGC throughout the years!</h1>
+            <h1 className={styleAp.ApH1}>Let's take a look at all of Muk appearances in the TGC throughout the years!</h1>
             <Row>
                 <div className="d-flex align-content-center my-3">
                     <button className={clsx("option", { ["active-switch"]: displayGrid } ) } onClick={() => setDisplayGrid(true)}> {/*impostare stile usando clsx(style.option, {style.active}*/}
@@ -60,7 +60,7 @@ function Appearances(){
                                     value={selectedSeries}
                                     onChange={handleSeriesChange}
                                 >
-                                    <option value="">All</option>
+                                    <option value="">Filter by series</option>
                                     <option value="Base">Base</option>
                                     <option value="EX">EX</option>
                                     <option value="Diamond & Pearl">Diamond & Pearl</option>
@@ -73,7 +73,7 @@ function Appearances(){
                                 </select>
                             </div>
                         </Col>
-                        <Col>
+                        {/*<Col>
                             <div>
                                 <select className={styleAp.seriesSelect}
                                 >
@@ -82,7 +82,7 @@ function Appearances(){
                                     <option value="newest">Newest</option>
                                 </select>
                             </div>
-                        </Col>
+                        </Col>*/}
                     </Row>
                 </Col>
             </Row>

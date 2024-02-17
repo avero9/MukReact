@@ -46,7 +46,7 @@ a.active {
 .option.active-switch {
   background-color: #C785F2;
   color: #0D0D0D;
-  transform: scale(1.05)
+  transform: scale(1.06)
 }
 .option-order-table {
   padding: 5px 10px;
@@ -55,5 +55,18 @@ a.active {
 strong {
   font-size: 20px;
   font-family: 'Rubik', serif;
+  color: #0D0D0D !important;
 }
 
+h1{
+  font-size: 5vw !important;
+}
+
+@media screen and (max-width:992px){
+  h1{ font-size: 4em !important;}
+}
+
+h1,h2,h3,h4{
+  color: #DBC32A !important;
+  font-family: 'Rubik', serif;
+}

@@ -26,7 +26,7 @@ function TableApp(props){
                     {muk.set}
                 </td>
                 <td>
-                    {muk.date}
+                    {muk.releaseDate}
                 </td>
             </tr>
         );

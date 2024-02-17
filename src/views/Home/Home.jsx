@@ -19,7 +19,7 @@ function Home(){
                 </Row>
                 <Row className={style.mukFrame}>
                     <Col md={6} >
-                        <h2>Enjoy Muk</h2>
+                        <h2>Enjoy Muk in all its forms</h2>
                         <p>Being one of the first 151 Pokemon, Muk has had its fair number of apparitions in all things Pokemon related: the official games, the anime, the trading card game (TGC), plushies, and so on.
                         <br/>On this site I decided to focus on its appearances in the TCG, by showing the world the many ways Muk has been interpreted by various artist throughout the years.</p>
                         <NavLink to={"/Appearances"}>
@@ -36,8 +36,8 @@ function Home(){
                         <img className={style.mukImg} src={muk3} alt="mukImage2"/>
                     </Col>
                     <Col md={6}>
-                        <h2>Understand Muk</h2>
-                        <p className="align-content-center">Muk is the prime example of what the fans call an "Objectmon". Despite (or because) of this Muk never really had its time to shine and has always sidelined has a pokemon associated with the various villains.
+                        <h2>A misunderstood Pokémon</h2>
+                        <p className="align-content-center">Muk is the prime example of what the fans call an "Objectmon". <br/>Despite (or because) of this Muk never really had its time to shine and has always sidelined has a pokemon associated with the various villains.
                         <br/>To remedy this, I decided to bring justice to one of my Pokemon by creating a site dedicated exclusively to it.</p>
                         <NavLink to={"/Info"}>
                         <button type="button" className={style.bottone}>Learn more!</button>

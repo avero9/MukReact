@@ -84,35 +84,20 @@ function MukDetails () {
                     <Col md={6}>
                         <p><strong>Illustrator :</strong> {mukCardInfo.illustrator}</p>
                     </Col>
-
+                        }
+                    </Row>
+                    <Row>
+                        {mukCardInfo.name &&
+                            <Col>
+                                <Row className={styleD.mukInfoFrame}>
+                                    {mukCardInfo.description ? <p> <strong>Description :</strong> {mukCardInfo.description}</p> : <p> <strong>Description :</strong> None</p> }
+                                </Row>
+                            </Col>
                         }
                     </Row>
                 </Col>
-
             </Row>
 
-            <Row>
-                {mukCardInfo.name &&
-                    <Col md={6}>
-                        <Row className={styleD.mukInfoFrame}>
-                            {mukCardInfo.description ? <p> <strong>Description :</strong> {mukCardInfo.description}</p> : <p> <strong>Description :</strong> None</p> }
-                        </Row>
-                    </Col>
-                }
-                {/*{mukCardInfo.attacks &&
-                    <Col className="">
-                        <Row className={styleD.mukInfoFrame}>
-                        Attacks:
-                        <ul>
-                            {mukCardInfo.attacks.map((attacksInfo) => {
-                                    return <li key={attacksInfo.attacks?.name}>{attacksInfo.attacks?.name} : {attacksInfo.attacks?.effect}</li>
-                                }
-                            )}
-                        </ul>
-                        </Row>
-                    </Col>
-                }*/}
-            </Row>
         </Container>
 
     </>
