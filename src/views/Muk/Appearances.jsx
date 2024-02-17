@@ -73,16 +73,6 @@ function Appearances(){
                                 </select>
                             </div>
                         </Col>
-                        {/*<Col>
-                            <div>
-                                <select className={styleAp.seriesSelect}
-                                >
-                                    <option value="default">Default</option>
-                                    <option value="oldest">Oldest</option>
-                                    <option value="newest">Newest</option>
-                                </select>
-                            </div>
-                        </Col>*/}
                     </Row>
                 </Col>
             </Row>

@@ -10,7 +10,7 @@ import mukDefaultImg from "../../Utility/Utility";
 import styleCa from "./CardApp.module.css"
 
 function CardApp(props){
-    const {id, name, image, numb, set, series, date, logo} = props;
+    const { name, image, numb, set, series, date} = props;
 
     return(
 
