@@ -66,12 +66,14 @@ function MukDetails () {
                     </Col>
                 }
 
-                {mukCardInfo.weaknesses &&
+                {mukCardInfo.weaknesses && mukCardInfo.type?
                     <Col md={6}>
                         {mukCardInfo.weaknesses.map((weaknessesInfo) => {
-                                    return <p><strong>Weakness :</strong> {weaknessesInfo.weaknesses?.type}</p>
+                                    return <p><strong>Weakness :</strong> {weaknessesInfo.weaknesses.type}</p>
                                 }
                             )}
+                    </Col>: <Col md={6}>
+                      <p><strong>Weakness :</strong> Psychic</p>
                     </Col>
                 }
                 {mukCardInfo.rarity &&
@@ -97,7 +99,6 @@ function MukDetails () {
                     </Row>
                 </Col>
             </Row>
-
         </Container>
 
     </>

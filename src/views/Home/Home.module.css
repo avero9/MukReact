@@ -27,6 +27,7 @@
 .bottone:hover {
     background-color: #D5CCD9;
     color: #0D0D0D;
+    transition: 0.5s;
 }
 
 .mukImg{

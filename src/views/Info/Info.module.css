@@ -36,6 +36,7 @@
     border-radius: 10px;
     padding: 5px;
     margin: 1rem 0 2rem 6rem;
+    transition: 0.5s;
 }
 .bottone:hover {
     background-color: #D5CCD9;

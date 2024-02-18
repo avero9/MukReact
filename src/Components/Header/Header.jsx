@@ -22,10 +22,9 @@ function Header(props){
 
     return(
         <Navbar collapseOnSelect expand="lg" className={styleN.Header}>
-
                 <Navbar.Brand>
-                    <NavLink to="/">
-                        <img src={logo} className="d-inline-block align-top app-logo" alt="mukLogo"/>
+                    <NavLink to="/MukReact">
+                        <img src={logo} className="d-flex justify-content-start align-top app-logo" alt="mukLogo"/>
                     </NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

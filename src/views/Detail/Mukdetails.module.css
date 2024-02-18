@@ -1,15 +1,15 @@
 .bottone {
-    font-family: "Kanit", SansSerif;
+    font-family: 'Rubik', serif;
     border: 2px solid #0D0D0D;
     background-color: #C785F2;
     color: #151515;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
-
 }
 .bottone:hover {
     background-color: #D5CCD9;
     color: #0D0D0D;
+    transition: 0.5s;
 }
 
 .mukInfoFrame {

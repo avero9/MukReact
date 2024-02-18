@@ -7,8 +7,7 @@
 
 .headerlink{
     margin: 1rem 1rem;
+    align-items: center;
     padding-bottom: 10px;
-    display: inline-block;
-    vertical-align: middle;
     text-transform: uppercase;
 }

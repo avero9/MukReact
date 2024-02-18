@@ -11,19 +11,19 @@ import  "../../index.css"
 
 function App() {
     const nav = [
-        {url: "/", text: "Home", exact: true},
+        {url: "/MukReact", text: "Home", exact: true},
         {url: "/Appearances", text: "Appearances", exact: true},
         {url: "/info", text: "Info", exact: true}
     ];
   return (
     <BrowserRouter>
       <Template
-          footerCourseName = "Tecnologie e Applicazioni dei Sistemi Distribuiti"
+          footerCourseName = "Applicazioni Web: progettazione e sviluppo"
           footerCourseLink = "https://elearning.unimib.it/course/info.php?id=44672"
           navItems={nav}
           logo={Logo}>
           <Routes>
-              <Route path="/" element={<Home />}/>
+              <Route path="/MukReact" element={<Home />}/>
               <Route path="/Appearances" element={<Appearances/>}/>
               <Route path="/Appearances/:number" element={<MukDetails/>}/>
               <Route path="/info" element={<Info />}/>
