@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MukReact/static/css/main.73e2b4dd.css",
-    "main.js": "/MukReact/static/js/main.02d1637d.js",
+    "main.css": "/MukReact/static/css/main.80cb4d5a.css",
+    "main.js": "/MukReact/static/js/main.ebed2f5a.js",
     "static/js/787.69fb6038.chunk.js": "/MukReact/static/js/787.69fb6038.chunk.js",
     "static/media/concept.jpg": "/MukReact/static/media/concept.a46bbaef5078076ae94b.jpg",
     "static/media/Muk404.jpg": "/MukReact/static/media/Muk404.932f2e8ee02bc7e592e2.jpg",
@@ -14,12 +14,12 @@
     "static/media/Muk_shiny.webp": "/MukReact/static/media/Muk_shiny.fe05eac16cdd66f59042.webp",
     "static/media/Unimib.jpg": "/MukReact/static/media/Unimib.89c26fae21dd9d2a943e.jpg",
     "index.html": "/MukReact/index.html",
-    "main.73e2b4dd.css.map": "/MukReact/static/css/main.73e2b4dd.css.map",
-    "main.02d1637d.js.map": "/MukReact/static/js/main.02d1637d.js.map",
+    "main.80cb4d5a.css.map": "/MukReact/static/css/main.80cb4d5a.css.map",
+    "main.ebed2f5a.js.map": "/MukReact/static/js/main.ebed2f5a.js.map",
     "787.69fb6038.chunk.js.map": "/MukReact/static/js/787.69fb6038.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73e2b4dd.css",
-    "static/js/main.02d1637d.js"
+    "static/css/main.80cb4d5a.css",
+    "static/js/main.ebed2f5a.js"
   ]
 }
