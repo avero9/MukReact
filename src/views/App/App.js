@@ -11,9 +11,9 @@ import  "../../index.css"
 
 function App() {
     const nav = [
-        {url: "/MukReact/", text: "Home", exact: true},
+        {url: "/", text: "Home", exact: true},
         {url: "/Appearances", text: "Appearances", exact: true},
-        {url: "/info", text: "Info", exact: true}
+        {url: "/Info", text: "Info", exact: true}
     ];
   return (
     <BrowserRouter>
@@ -23,10 +23,10 @@ function App() {
           navItems={nav}
           logo={Logo}>
           <Routes>
-              <Route path="/MukReact/" element={<Home />}/>
+              <Route path="/" element={<Home />}/>
               <Route path="/Appearances" element={<Appearances/>}/>
               <Route path="/Appearances/:number" element={<MukDetails/>}/>
-              <Route path="/info" element={<Info />}/>
+              <Route path="/Info" element={<Info />}/>
               <Route path="*" element={<Error/>}/>
           </Routes>
       </Template>
