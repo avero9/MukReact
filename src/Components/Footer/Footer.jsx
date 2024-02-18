@@ -26,7 +26,7 @@ function Footer(props){
                 <Row>
                     <Col className="pt-3">
                         <h3 className={stylef.footerH3}>MukReact<span>
-                            <NavLink to="/">
+                            <NavLink to="/MukReact">
                             <img src={logo} alt="Muk" className={stylef.logoa}/></NavLink>
                         </span></h3>
                         <ul className={stylef.ulApp}>
